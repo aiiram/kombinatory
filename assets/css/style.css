@@ -12,13 +12,13 @@ body {
     font-size: 36px;
 }
 
-hr {
+/* hr {
     margin: 30px;
 }
 
 div+p {
     color: red;
-}
+} */
 
 /* 
 div~p {
@@ -28,3 +28,20 @@ div~p {
 /* div>p {
     color: lime;
 } */
+
+div>p {
+    color: red;
+}
+
+.child>p {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+#test~div {
+    background-color: blue;
+}
+
+main+p {
+    text-transform: uppercase;
+}
